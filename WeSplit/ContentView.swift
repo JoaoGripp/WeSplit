@@ -58,13 +58,6 @@ struct ContentView: View {
                         
                         Slider(value: $tipPercentage, in: 0...1, step: 0.01)
                     }
-                    
-//                    Picker("Tip percentage", selection: $tipPercentage) {
-//                        ForEach(2..<100) {
-//                            Text($0, format: .percent)
-//                        }
-//                    }
-//                    .pickerStyle(.wheel)
                 } header: {
                     Text("How much tip do you want to leave?")
                 }
